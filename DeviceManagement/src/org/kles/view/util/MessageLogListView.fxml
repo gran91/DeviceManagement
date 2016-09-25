@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Accordion fx:id="accordion" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <panes>
+      <TitledPane fx:id="titledpane" animated="false" text="untitled 1">
+         <content>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0">
+               <content>
+                  <ListView fx:id="listview" prefHeight="199.0" prefWidth="553.0" />
+               </content>
+            </ScrollPane>
+         </content>
+      </TitledPane>
+   </panes>
+</Accordion>
